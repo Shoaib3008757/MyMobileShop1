@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_splash_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+  <RelativeLayout
+      android:layout_width="wrap_content"
+      android:layout_height="288dp"
+      android:background="@drawable/blue_background">
+
+
+  <ImageView
+      android:layout_width="140dp"
+      android:layout_height="180dp"
+      android:id="@+id/single_image_view"
+      android:src="@drawable/core_prime"
+      android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="10dp"/>
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Mobile Color"
+      android:id="@+id/mobile_color"
+      android:textColor="@color/colorBloack"
+      android:textSize="14dp"
+      android:textStyle="bold"
+      android:layout_below="@+id/single_image_view"/>
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/mobile_price"
+      android:text="Mobile Price"
+      android:textColor="@color/colorBloack"
+      android:textSize="14dp"
+      android:textStyle="bold"
+      android:layout_below="@+id/mobile_color"/>
+
+
+  <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/diloag_liner_layout"
+      android:layout_below="@+id/mobile_price">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buy Later"
+        android:backgroundTint="@color/HardSky"
+
+        android:id="@+id/buy_later"
+        android:layout_weight="1"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buy_this_mobile"
+        android:text="Buy Now"
+        android:layout_weight="1"
+        android:backgroundTint="@color/HardSky"
+         />
+
+
+
+  </LinearLayout>
+  </RelativeLayout>
+
+</RelativeLayout>

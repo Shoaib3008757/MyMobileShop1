@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#4f0606</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="waterColor">#EBF4FA</color>
+    <color name="HardSky">#146a81</color>
+    <color name="colorBloack">#000</color>
+    <color name="lightSky">#66b1da</color>
+</resources>
